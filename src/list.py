@@ -24,4 +24,13 @@ for stringListSpisok in newList:
     item = stringListSpisok[3].replace('\n', '')
     stringListSpisok.pop(3)
     stringListSpisok.append(item)
-    print(stringListSpisok)
+    # print(stringListSpisok)
+
+print(newList)
+for stringListSpisok in newList:
+    spisokClass = SpisokClass(stringListSpisok[0],stringListSpisok[1],stringListSpisok[2],stringListSpisok[3])
+    # spisokClass.SpisokClass.set_nch(stringListSpisok[0])
+    # spisokClass.SpisokClass.set_name(stringListSpisok[1])
+    # spisokClass.SpisokClass.set_nch(stringListSpisok[2])
+    # spisokClass.SpisokClass.set_sum(stringListSpisok[3])
+    print(spisokClass)

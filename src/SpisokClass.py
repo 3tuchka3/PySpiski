@@ -22,3 +22,6 @@ class SpisokClass:
         self._nch = nch
     def set_sum(self,sum):
         self._sum = sum
+
+
+spisokClass = SpisokClass
